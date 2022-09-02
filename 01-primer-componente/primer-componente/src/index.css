@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Card*/
+.card-car-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-car-container .card-car {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.card-car-container .card-car.sedan {
+  background-color: #e38826;
+}
+.card-car-container .card-car.sedan .card-button {
+  color: #e38826;
+}
+.card-car-container .card-car.suv {
+  background-color: #006970;
+}
+.card-car-container .card-car.suv .card-button {
+  color: #006970;
+}
+.card-car-container .card-car.luxury {
+  background-color: #004241;
+}
+.card-car-container .card-car.luxury .card-button {
+  color: #004241;
+}
+.card-car-container .card-car h2 {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+
+}
+.card-car-container .card-car .card-button {
+  background-color: #f2f2f2;
+  border-radius: 2rem;
+  text-decoration: none;
+  border: 1px solid #FFF;
+}
+.card-car-container .card-car .card-button:hover {
+  background-color: transparent;
+  color: #FFF;
+}
