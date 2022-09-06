@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+.avatar {
+  max-width: 40px;
+  overflow: hidden;
+  max-height: 40px;
+}
+img{
+  max-width: 100%;
+}
+
+a.share {
+  opacity: .8;
+}

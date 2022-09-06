@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+.card {
+  background-color: #222831;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  box-shadow: 0 10px 50px rgb(13, 55, 190);
+}
+
+.card-name {
+  margin-top: 15px;
+  font-size: 1em;
+}
+
+.card-label {
+    margin-top: 15px;
+    font-size: 1em;
+  }
