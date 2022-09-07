@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,UAAU;CAItB;;AALD,AAEI,UAFM,CAEN,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;CACZ",
+    "sources": [
+        "BlockInfo.module.scss"
+    ],
+    "names": [],
+    "file": "BlockInfo.module.css"
+}

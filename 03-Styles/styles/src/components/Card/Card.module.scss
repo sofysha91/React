@@ -1,0 +1,16 @@
+.characterCard{
+    display: flex;
+    overflow: hidden;
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    color: #FFF;
+    .characterAvatar{
+        width: 40%;
+        img{
+            max-width: 100%;
+        }
+    }
+    .character-info{
+        width: 60%;
+    }
+}
