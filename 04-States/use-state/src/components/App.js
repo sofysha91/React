@@ -3,7 +3,7 @@ import Water from "./Water";
 
 function App() {
   return (
-    <Counter count={4} />
+    <Counter count={4} /> 
   );
 }
 
