@@ -5,29 +5,28 @@ import Card from "../components/Card/Card"
 const CardList = () => {
     const [filter, setFilter] = useState("all");    
     
-    const all = () => setFilter("all");
-    const Alive = () => setFilter("Alive");
-    const Dead = () => setFilter("Dead");
-    const Unknown = () => setFilter("unknown");
-
+    const setAll = () => setFilter("all");
+    const setAlive = () => setFilter("Alive");
+    const setDead = () => setFilter("Dead");
+    const setUnknown = () => setFilter("unknown");
     
     const charactersFiltered = characters.filter(character => {
         if(filter != "all"){
             return character.status === filter;
          }
-        return character;
+        return true;
     });    
 
   return (
     <div className='container mt-5'>
         <div className="mb-5">
-            <button className="btn btn-primary me-3" onClick={all} >Show All</button>  
-            <button className="btn btn-primary me-3" onClick={Alive}>Alive</button>
-            <button className="btn btn-primary me-3" onClick={Dead} >Dead</button>  
-            <button className="btn btn-primary me-3" onClick={Unknown}>Unknown</button>
+            <button className="btn btn-primary me-3" onClick={setAll} >Show All</button>  
+            <button className="btn btn-primary me-3" onClick={setAlive}>Alive</button>
+            <button className="btn btn-primary me-3" onClick={setDead} >Dead</button>  
+            <button className="btn btn-primary me-3" onClick={setUnknown}>Unknown</button>
         </div>
         <div className="row">      
-            {charactersFiltered.map((character) => {                               
+            {charactersFiltered.map((character) => {                                            
                 let episodeID = "";
                 if(character.episode.length > 0){
                     episodeID = character.episode[0];
@@ -44,8 +43,7 @@ const CardList = () => {
                             location={character.location.name}                    
                         /> 
                     </div>
-                );    
-                           
+                );                                            
             })}      
         </div>
     </div>
