@@ -1,0 +1,22 @@
+.characterCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  background: #3c3e44;
+  border-radius: 0.5rem;
+  color: #FFF;
+}
+
+.characterCard .characterAvatar {
+  width: 40%;
+}
+
+.characterCard .characterAvatar img {
+  max-width: 100%;
+}
+
+.characterCard .character-info {
+  width: 60%;
+}
+/*# sourceMappingURL=Card.module.css.map */
