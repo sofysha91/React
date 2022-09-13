@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,kBAAkB;EACzB,UAAU,EAAE,iBAAiB;CAChC",
+    "sources": [
+        "ListData.module.scss"
+    ],
+    "names": [],
+    "file": "ListData.module.css"
+}
